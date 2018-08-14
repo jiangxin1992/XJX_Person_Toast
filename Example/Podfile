@@ -1,0 +1,6 @@
+use_frameworks!
+target 'YYToast_Tests' do
+  pod 'YYToast', :path => '../'
+  
+  
+end

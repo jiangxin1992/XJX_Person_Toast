@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059B83470F327A3AB020BF390E449641 /* Pods-YYToast_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A20FC0A09BC828E2AF75F9C53AF9CDF9 /* Pods-YYToast_Tests-dummy.m */; };
+		10425E3D1042588B043ED201A2DBBF94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6A56A34A503A0E72DB7585E54B3F773A /* YYToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48DDFD3288E80C74E984D8BAAB0A980F /* YYToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA7C658D9B5594DB31E40928C12490A6 /* YYToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 460477FC63B985D9F1AB999CF8F4840C /* YYToast-dummy.m */; };
+		BD993DCB23AD79EF3B9185556B97FE76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DA2D2D6EBDBF0C5C56C9152B562511A1 /* Pods-YYToast_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8086122CAD632EF7A36870B830FE2FD5 /* Pods-YYToast_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA84202B6CF5D32ADC74D8F427126F64 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F373242FAFE6221F46E8668DFAE0B8 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AAC20409F7C995ABD12563D917DAF56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 852CD05D20ACE15D64F1E2205C19A7EE;
+			remoteInfo = YYToast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E5AB59F38C0EE5D565B355E3771F35A /* Pods-YYToast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYToast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2012AB17993334F123631AF17801F3C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB556C1F11DCC95AA0CC43CC25CCEBD /* Pods-YYToast_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YYToast_Tests-resources.sh"; sourceTree = "<group>"; };
+		460477FC63B985D9F1AB999CF8F4840C /* YYToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYToast-dummy.m"; sourceTree = "<group>"; };
+		4774A0443510E5C1B76C768EC6B18881 /* YYToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYToast-prefix.pch"; sourceTree = "<group>"; };
+		48DDFD3288E80C74E984D8BAAB0A980F /* YYToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYToast-umbrella.h"; sourceTree = "<group>"; };
+		4FEC868677451DCF6774EDCDD41E9823 /* Pods-YYToast_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YYToast_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		51E1B667EF62500E6D265D1AA0D72661 /* YYToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYToast.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D3804D63E1CEA31FEF6E6B58CBC2736 /* YYToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYToast.framework; path = YYToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8086122CAD632EF7A36870B830FE2FD5 /* Pods-YYToast_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YYToast_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93EC814D26DF943D4E110193B225E666 /* Pods_YYToast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YYToast_Tests.framework; path = "Pods-YYToast_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F373242FAFE6221F46E8668DFAE0B8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YYToast/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		9D1A83F78F2326F28634ABADCBB16499 /* Pods-YYToast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YYToast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A20FC0A09BC828E2AF75F9C53AF9CDF9 /* Pods-YYToast_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YYToast_Tests-dummy.m"; sourceTree = "<group>"; };
+		A44DDAD0DC7BA2D7D3173060217344A8 /* Pods-YYToast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYToast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A84770B2329EABD672D149C1252863B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5E5224AD750BB23CC82078417B9D91F /* Pods-YYToast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYToast_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D159CC1121A2F43C557480D10A5636FA /* YYToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YYToast.modulemap; sourceTree = "<group>"; };
+		DFE172CF1385858BE19E60E223C276A2 /* Pods-YYToast_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YYToast_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AC15D7DF2505FADDFC12027FF580417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD993DCB23AD79EF3B9185556B97FE76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F70DE15EB0BF30F801BBA946C3455E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10425E3D1042588B043ED201A2DBBF94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		219522B4EBB3630F1D5BCE4D33F94B81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93EC814D26DF943D4E110193B225E666 /* Pods_YYToast_Tests.framework */,
+				6D3804D63E1CEA31FEF6E6B58CBC2736 /* YYToast.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5940ADCD918FEB1E2A4C54342E3F2270 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D87DC1E0663F6626BF8456997D1D5CB /* Pods-YYToast_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5D87DC1E0663F6626BF8456997D1D5CB /* Pods-YYToast_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A84770B2329EABD672D149C1252863B8 /* Info.plist */,
+				DFE172CF1385858BE19E60E223C276A2 /* Pods-YYToast_Tests.modulemap */,
+				9D1A83F78F2326F28634ABADCBB16499 /* Pods-YYToast_Tests-acknowledgements.markdown */,
+				A44DDAD0DC7BA2D7D3173060217344A8 /* Pods-YYToast_Tests-acknowledgements.plist */,
+				A20FC0A09BC828E2AF75F9C53AF9CDF9 /* Pods-YYToast_Tests-dummy.m */,
+				4FEC868677451DCF6774EDCDD41E9823 /* Pods-YYToast_Tests-frameworks.sh */,
+				3AB556C1F11DCC95AA0CC43CC25CCEBD /* Pods-YYToast_Tests-resources.sh */,
+				8086122CAD632EF7A36870B830FE2FD5 /* Pods-YYToast_Tests-umbrella.h */,
+				0E5AB59F38C0EE5D565B355E3771F35A /* Pods-YYToast_Tests.debug.xcconfig */,
+				C5E5224AD750BB23CC82078417B9D91F /* Pods-YYToast_Tests.release.xcconfig */,
+			);
+			name = "Pods-YYToast_Tests";
+			path = "Target Support Files/Pods-YYToast_Tests";
+			sourceTree = "<group>";
+		};
+		695F845BAD062A6316D40722730950E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2012AB17993334F123631AF17801F3C6 /* Info.plist */,
+				D159CC1121A2F43C557480D10A5636FA /* YYToast.modulemap */,
+				51E1B667EF62500E6D265D1AA0D72661 /* YYToast.xcconfig */,
+				460477FC63B985D9F1AB999CF8F4840C /* YYToast-dummy.m */,
+				4774A0443510E5C1B76C768EC6B18881 /* YYToast-prefix.pch */,
+				48DDFD3288E80C74E984D8BAAB0A980F /* YYToast-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YYToast";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B38C6828EB6AE3484ED4E3DEBCE6ED8D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				219522B4EBB3630F1D5BCE4D33F94B81 /* Products */,
+				5940ADCD918FEB1E2A4C54342E3F2270 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B38C6828EB6AE3484ED4E3DEBCE6ED8D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2C4EB1E82DA555659203574C5285DE4 /* YYToast */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2C4EB1E82DA555659203574C5285DE4 /* YYToast */ = {
+			isa = PBXGroup;
+			children = (
+				98F373242FAFE6221F46E8668DFAE0B8 /* ReplaceMe.m */,
+				695F845BAD062A6316D40722730950E2 /* Support Files */,
+			);
+			name = YYToast;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27B6A513D967EE09B8EB334ADEBD6BB4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A56A34A503A0E72DB7585E54B3F773A /* YYToast-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C600FF1E939473A0281F7AF8FFAE5BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2D2D6EBDBF0C5C56C9152B562511A1 /* Pods-YYToast_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D3E572722404D25283E3BFA910129C9 /* Pods-YYToast_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ACAE045A31EA558BC9133568FA796F8 /* Build configuration list for PBXNativeTarget "Pods-YYToast_Tests" */;
+			buildPhases = (
+				BD09095F71B0629FBAAF86DA20D91B62 /* Sources */,
+				0AC15D7DF2505FADDFC12027FF580417 /* Frameworks */,
+				8C600FF1E939473A0281F7AF8FFAE5BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14E9DD5412828AAD8442C5C7C39C3BD0 /* PBXTargetDependency */,
+			);
+			name = "Pods-YYToast_Tests";
+			productName = "Pods-YYToast_Tests";
+			productReference = 93EC814D26DF943D4E110193B225E666 /* Pods_YYToast_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		852CD05D20ACE15D64F1E2205C19A7EE /* YYToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02A7AD9AE80C2EC9CB499460445F6C7C /* Build configuration list for PBXNativeTarget "YYToast" */;
+			buildPhases = (
+				84FEE5E4F665015C8340E369B4690B87 /* Sources */,
+				C1F70DE15EB0BF30F801BBA946C3455E /* Frameworks */,
+				27B6A513D967EE09B8EB334ADEBD6BB4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYToast;
+			productName = YYToast;
+			productReference = 6D3804D63E1CEA31FEF6E6B58CBC2736 /* YYToast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 219522B4EBB3630F1D5BCE4D33F94B81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D3E572722404D25283E3BFA910129C9 /* Pods-YYToast_Tests */,
+				852CD05D20ACE15D64F1E2205C19A7EE /* YYToast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84FEE5E4F665015C8340E369B4690B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA84202B6CF5D32ADC74D8F427126F64 /* ReplaceMe.m in Sources */,
+				AA7C658D9B5594DB31E40928C12490A6 /* YYToast-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD09095F71B0629FBAAF86DA20D91B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059B83470F327A3AB020BF390E449641 /* Pods-YYToast_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14E9DD5412828AAD8442C5C7C39C3BD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYToast;
+			target = 852CD05D20ACE15D64F1E2205C19A7EE /* YYToast */;
+			targetProxy = 4AAC20409F7C995ABD12563D917DAF56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		037AE16DB860A0D2ED3F07FB331BA455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E1B667EF62500E6D265D1AA0D72661 /* YYToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YYToast/YYToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYToast/YYToast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YYToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50F4BF0AB569E98F8974BDA92886631C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E5AB59F38C0EE5D565B355E3771F35A /* Pods-YYToast_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YYToast_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YYToast_Tests/Pods-YYToast_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YYToast_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B1F065CE391966CB0B45E6951BD972C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E1B667EF62500E6D265D1AA0D72661 /* YYToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YYToast/YYToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYToast/YYToast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YYToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B94E7E37ABC1DBD88BDBEB8BDD8D24C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5E5224AD750BB23CC82078417B9D91F /* Pods-YYToast_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YYToast_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YYToast_Tests/Pods-YYToast_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YYToast_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02A7AD9AE80C2EC9CB499460445F6C7C /* Build configuration list for PBXNativeTarget "YYToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037AE16DB860A0D2ED3F07FB331BA455 /* Debug */,
+				5B1F065CE391966CB0B45E6951BD972C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ACAE045A31EA558BC9133568FA796F8 /* Build configuration list for PBXNativeTarget "Pods-YYToast_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F4BF0AB569E98F8974BDA92886631C /* Debug */,
+				9B94E7E37ABC1DBD88BDBEB8BDD8D24C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
